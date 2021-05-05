@@ -31,10 +31,10 @@ var score = 0;
 // audio files
 
 var fly = new Audio();
-var score = new Audio();
+var scor = new Audio();
 
 fly.src = "sounds/fly.mp3";
-score.src = "sounds/score.mp3";
+scor.src = "sounds/score.mp3";
 
 // pipe coordinates
 
@@ -67,7 +67,13 @@ function draw(){
             }); 
         }
 
-           if(pipe[i].x == 5){
+        // detect collision
+        
+        if( bX + bird.width >= pipe[i].x && bX <= pipe[i].x + pipeNorth.width && (bY <= pipe[i].y + pipeNorth.height || bY+bird.height >= pipe[i].y+constant) || bY + bird.height >=  cvs.height - fg.height){
+            location.reload(); // reload the page
+        }
+        
+        if(pipe[i].x == 5){
             score++;
             scor.play();
         }
@@ -90,27 +96,6 @@ function draw(){
 }
 
 draw();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
