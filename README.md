@@ -1,2 +1,3 @@
 # Coolmath
-its a coolmathgames remake
+Just to clarify
+this is NOT coolmath AT ALL
