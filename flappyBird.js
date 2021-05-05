@@ -31,10 +31,10 @@ var score = 0;
 // audio files
 
 var fly = new Audio();
-var scor = new Audio();
+var score = new Audio();
 
 fly.src = "sounds/fly.mp3";
-scor.src = "sounds/score.mp3";
+score.src = "sounds/score.mp3";
 
 // pipe coordinates
 
