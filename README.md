@@ -1,3 +1,3 @@
 # Coolmath
 Just to clarify
-this is NOT coolmath AT ALL
+This is not coolmath, this is a flappy bird game for now
