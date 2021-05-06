@@ -3,6 +3,5 @@ CRASHING: The game is having some weird issues involving falling below the floor
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Just to clarify
-This is not coolmath, this is a flappy bird game for now
+This is FlappyBird not Coolmath. I dont know why I named it Coolmath
 
