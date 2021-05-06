@@ -26,7 +26,7 @@ var bY = 150;
 
 var gravity = 1.5;
 
-var score = 0;
+var score = 6000;
 
 // audio files
 
