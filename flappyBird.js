@@ -24,7 +24,7 @@ var constant;
 var bX = 10;
 var bY = 150;
 
-var gravity = 1.5;
+var gravity = 1.0;
 
 var score = 6000;
 
@@ -41,7 +41,7 @@ scor.src = "sounds/score.mp3";
 document.addEventListener("keydown",moveUp);
 
 function moveUp(){
-    bY -= 25;
+    bY -= 50;
     fly.play();
 }
 
