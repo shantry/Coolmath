@@ -21,10 +21,10 @@ pipeSouth.src = "images/pipeSouth.png";
 var gap = 110;
 var constant;
 
-var bX = 10;
+var bX = 1000;
 var bY = 150;
 
-var gravity = 5000.0;
+var gravity = 50.0;
 
 var score = 6000;
 
@@ -69,7 +69,7 @@ function draw(){
              
         pipe[i].x--;
         
-        if( pipe[i].x == 125000 ){
+        if( pipe[i].x == 125 ){
             pipe.push({
                 x : cvs.width,
                 y : Math.floor(Math.random()*pipeNorth.height)-pipeNorth.height
