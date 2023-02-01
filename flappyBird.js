@@ -41,7 +41,7 @@ scor.src = "sounds/score.mp3";
 document.addEventListener("keydown",moveUp);
 
 function moveUp(){
-    bY -= 45;
+    bY -= 55;
     fly.play();
 }
 
@@ -76,7 +76,7 @@ function draw(){
             }); 
         }
 
-        // detect collision
+        // detect collision   <---well obviously this is what broke it
         
         if( bX + bird.width >= pipe[i].x && bX <= pipe[i].x + pipeNorth.width && (bY <= pipe[i].y + pipeNorth.height || bY+bird.height >= pipe[i].y+constant) || bY + bird.height >=  cvs.height - fg.height){
             location.reload(); // reload the page
